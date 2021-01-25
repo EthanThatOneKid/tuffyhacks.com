@@ -1,10 +1,9 @@
 {
-  "name": "virtual-event-starter-kit",
-  "description": "Starter kit for your virtual event.",
+  "name": "tuffyhacks.com",
+  "description": "Home of the source of TuffyHacks' website.",
   "private": true,
-  "repository": "vercel/virtual-event-starter-kit",
-  "author": "Vercel Inc.",
-  "homepage": "https://demo.vercel.events",
+  "repository": "EthanThatOneKid/tuffyhacks.com",
+  "homepage": "https://tuffyhacks.com",
   "license": "Apache-2.0",
   "engines": {
     "node": "12.x"
