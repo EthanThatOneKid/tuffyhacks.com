@@ -12,4 +12,4 @@ Built with 💖 by the [TuffyHacks Team][the_team]
 
 [contributing]: docs/CONTRIBTING.md
 [deployment_console]: https://vercel.com/ethanthatonekid/tuffyhacks-site
-[the_team]: #
+[the_team]: https://acmcsuf.com/

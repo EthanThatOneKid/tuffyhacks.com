@@ -31,6 +31,10 @@ When you finish making your changes, feel free to send a pull request!
 This site is deployed on [Vercel][vercel_home].
 The platform is the simplest solution for hosting this event.
 
-[virtual_event_starter_kit]: virtual-event-starter-kit
+## Todo
+
+- [ ] Replace components one by one using the [new design](https://www.figma.com/file/X7GKSRwLKZbslV1zimyixz/TuffyHacks-Web-Design?node-id=385%3A580).
+
+[virtual_event_starter_kit]: https://github.com/vercel/virtual-event-starter-kit/
 [node_home]: https://nodejs.org/en/
-[vercel_home]: #
+[vercel_home]: https://vercel.com/
