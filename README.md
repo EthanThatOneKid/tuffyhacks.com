@@ -10,7 +10,7 @@ See [`CONTRIBUTING.md`][contributing] to see how you can help contribute to [`tu
 
 Built with 💖 by the [TuffyHacks Team][the_team]
 
-[contributing]: docs/CONTRIBTING.md
+[contributing]: docs/CONTRIBUTING.md
 [deployment_console]: https://vercel.com/ethanthatonekid/tuffyhacks-site
 [the_team]: https://acmcsuf.com/
 [demo_site]: https://tuffyhacks.com/
