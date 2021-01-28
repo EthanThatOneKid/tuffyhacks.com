@@ -66,7 +66,7 @@ export default function Layout({ children, className, hideNav, layoutStyles }: P
             </div>
             <div className={cn(styles['header-right'])}>
               {/* <HostedByVercel /> */}
-              Hosted by the TuffyHacks Team
+              Created by the TuffyHacks Team
             </div>
           </header>
         )}
