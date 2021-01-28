@@ -1,0 +1,43 @@
+@import "./variables.scss";
+
+aside {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  margin-left: 2em;
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: auto;
+    display: grid;
+    justify-content: center;
+    grid-auto-flow: row;
+
+    li {
+      text-align: center;
+      padding-bottom: 1em;
+
+      svg {
+        width: 24px;
+        height: 24px;
+      }
+
+      a:hover {
+        svg path {
+          fill: $tuffyBrownDark;
+        }
+      }
+    }
+
+    &::after {
+      content: "";
+      width: 0px;
+      border: 2px solid$tuffyBrownDark;
+      height: 10em;
+      margin-left: 50%;
+      transform: translate(-50%, 0);
+      border-radius: 2px 2px 0 0;
+    }
+  }
+}

@@ -1,0 +1,250 @@
+@import "./variables.scss";
+
+main {
+  padding: 0 5em;
+}
+
+section {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  position: relative;
+
+  h2 {
+    font-size: 32px;
+  }
+
+  .when {
+    color: $tuffyBrownDark;
+  }
+
+  .cta-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .cta {
+    font-family: "Verlag", sans-serif;
+    text-transform: uppercase;
+    background: $tuffyBrownLight;
+    border: 6px solid #644117;
+    box-sizing: border-box;
+    border-radius: 6px;
+    padding: 8px 16px 8px 16px;
+    color: $tuffyBrownDark;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 15px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    min-width: 170px;
+    max-width: 170px;
+    max-height: 80px;
+
+    &:hover {
+      // TODO: Create a special hover effect for cta.
+      cursor: pointer;
+    }
+  }
+
+  .hidden {
+    display: none;
+  }
+}
+
+@media (max-width: 700px) {
+  #info h3 {
+    font-size: 16px;
+    color: red;
+  }
+
+  #landing a {
+    width: 50%;
+  }
+}
+
+#landing {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background: $tuffyGreenLight;
+
+  div {
+    padding-top: 100px;
+    h1 {
+      width: 100%;
+      font-size: 32px;
+      font-weight: 700;
+    }
+    p:nth-of-type(1) {
+      width: 100%;
+      margin-top: 0.5em;
+    }
+    time {
+      display: flex;
+      align-self: center;
+      width: max-content;
+      margin-top: 0.5em;
+    }
+    .cta-container {
+      padding-top: 32px;
+      a:nth-of-type(1) {
+        width: 100%;
+        margin-top: 0.2em;
+      }
+      a:nth-of-type(2) {
+        width: 100%;
+        margin-top: 0.2em;
+        margin-left: 30px;
+      }
+    }
+    p:nth-of-type(2) {
+      width: 100%;
+      margin-top: 0.2em;
+    }
+  }
+  .graphic {
+    position: absolute;
+    bottom: 0;
+
+    &:nth-of-type(1) {
+      left: 6vw;
+      height: 410px;
+    }
+    &:nth-of-type(2) {
+      left: 16vw;
+      height: 340px;
+    }
+    &:nth-of-type(3) {
+      left: 26vw;
+      height: 320px;
+    }
+    &:nth-of-type(4) {
+      left: 9vw;
+      height: 275px;
+    }
+    &:nth-of-type(5) {
+      right: 0;
+    }
+  }
+}
+
+#about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: radial-gradient(
+    75.39% 75.39% at 15.56% 24.61%,
+    #546bab 0%,
+    #2b2f77 8.85%,
+    #111442 17.12%,
+    #050825 100%
+  );
+  color: $tuffyBrownLight;
+  div {
+    width: 100%;
+    #stats {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      font-size: 40px;
+      line-height: 80px;
+      margin-bottom: 40px;
+    }
+    #info {
+      width: 30em;
+      p {
+        margin: 2em 0 2em 0;
+        font-size: 20px;
+      }
+
+      @media screen and (max-width: $breakpoint) {
+        width: 15em;
+      }
+    }
+  }
+  .graphic {
+    position: relative;
+    &:nth-of-type(1) {
+      // moon
+      top: 122px;
+      left: 100px;
+    }
+    &:nth-of-type(2) {
+      // stick
+      bottom: 150px;
+      left: 0px;
+    }
+    &:nth-of-type(3) {
+      // campfire
+      bottom: 0px;
+      left: 220px;
+    }
+  }
+}
+
+#sponsors {
+  background: #cfa569;
+  color: $tuffyBrownDark;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  div {
+    max-width: 30em;
+    grid-auto-columns: fit-content(1em);
+  }
+  margin: auto;
+  p {
+    margin: 2em 0 2em 0;
+    font-size: 18px;
+  }
+}
+
+#faq {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: $tuffyGreenLight;
+  color: $tuffyBrownDark;
+  div {
+    width: unset;
+  }
+  details {
+    font-size: 18px;
+  }
+}
+
+.faq-container {
+  width: 810px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+  align-items: stretch;
+  justify-content: space-around;
+
+  details {
+    padding: 0.42em;
+  }
+}
+
+.faq-column {
+  width: 400px;
+  flex-shrink: 1;
+  font-size: 18px;
+  margin: 10px 5px 0 5px;
+
+  @media screen and (max-width: $breakpoint) {
+    width: 15em;
+  }
+}
+
+#get-updates {
+  margin: auto;
+  text-align: center;
+  p {
+    margin: 1em 0 2em 0;
+    font-size: 18px;
+  }
+}
