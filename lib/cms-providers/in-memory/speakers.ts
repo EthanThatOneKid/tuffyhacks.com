@@ -1,16 +1,24 @@
-import { Speaker, Talk, Image } from '@lib/types';
+import { Speaker } from '@lib/types';
 
 export const speakers: Speaker[] = [
   {
     name: 'Tuffy',
     bio: '',
     title: '',
-    slug: '',
+    slug: 'tuffy',
     twitter: '',
     github: '',
     company: '',
-    talk: {} as Talk,
-    image: {} as Image,
-    imageSquare: {} as Image
+    talk: {
+      description: '',
+      end: '',
+      start: '',
+      title: '',
+      speaker: []
+    },
+    image: {
+      url: ''
+    },
+    imageSquare: { url: '' }
   }
 ];

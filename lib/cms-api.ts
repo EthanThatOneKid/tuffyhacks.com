@@ -20,7 +20,7 @@ import * as datoCmsApi from './cms-providers/dato';
 import * as contentfulApi from './cms-providers/contentful';
 import * as prismicApi from './cms-providers/prismic';
 import * as storyblokApi from './cms-providers/storyblok';
-import * as inMemoryApi from "./cms-providers/in-memory"
+import * as inMemoryApi from './cms-providers/in-memory';
 
 interface CmsApi {
   getAllSpeakers: () => Promise<Speaker[]>;
@@ -46,12 +46,12 @@ if (process.env.DATOCMS_READ_ONLY_API_TOKEN) {
 ) {
   cmsApi = agilityApi;
 } else {
-  cmsApi = {
+  cmsApi = inMemoryApi || {
     getAllSpeakers: async () => [],
     getAllStages: async () => [],
     getAllSponsors: async () => [],
     getAllJobs: async () => []
-  } || inMemoryApi;
+  };
 }
 
 export async function getAllSpeakers(): Promise<Speaker[]> {
