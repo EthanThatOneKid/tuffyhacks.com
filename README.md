@@ -1,4 +1,4 @@
-# TuffyHacks.com 🐘
+# TuffyHacks.com [🐘][designs]
 
 > Home of the source of TuffyHacks' website.
 
@@ -14,3 +14,4 @@ Built with 💖 by the [TuffyHacks Team][the_team]
 [deployment_console]: https://vercel.com/ethanthatonekid/tuffyhacks-site
 [the_team]: https://acmcsuf.com/
 [demo_site]: https://tuffyhacks.com/
+[designs]: https://www.figma.com/file/X7GKSRwLKZbslV1zimyixz/TuffyHacks-Web-Design
