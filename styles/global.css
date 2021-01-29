@@ -42,6 +42,17 @@
   --text-lg: 18px;
   --text-xl: 24px;
 
+  --tuffyhacks-elephant-grey: #9e9b90;
+  --tuffyhacks-dark-brown-stroke: #513513;
+  --tuffyhacks-dark-brown-cloth: #644117;
+  --tuffyhacks-badge-tan: #f5d2a5;
+  --tuffyhacks-light-green: #aedc7e;
+  --tuffyhacks-darker-green: #94a71c;
+  --tuffyhacks-brown: #513513;
+  --tuffyhacks-tan: #f5d3a5;
+  --tuffyhacks-light-tan: #f4f1c9;
+  --tuffyhacks-black-gradient: #0f123d;
+
   --accents-1: #fafafa;
   --accents-2: #eaeaea;
   --accents-3: #999999;
@@ -52,7 +63,7 @@
   --accents-8: #111111;
 
   --gray: #252729;
-  --secondary-color: #8a8f98;
+  --secondary-color: var(--dark-brown-stroke);
   --sidebar: #0e0e10;
   --header-height: 72px;
   --brand: #845ef7;

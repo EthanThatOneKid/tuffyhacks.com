@@ -1,6 +1,6 @@
 # Contributing to `tuffyhacks.com`!
 
-> What better way is there to contribute to the TuffyHacks event than building its very own *virtual platform*?!
+> What better way is there to contribute to the TuffyHacks event than building its very own _virtual platform_?!
 
 ## About
 
@@ -34,6 +34,9 @@ The platform is the simplest solution for hosting this event.
 ## Todo
 
 - [ ] Replace components one by one using the [new design](https://www.figma.com/file/X7GKSRwLKZbslV1zimyixz/TuffyHacks-Web-Design?node-id=385%3A580).
+- [ ] Customize the Starter Kit
+  - [ ] [Notion "Code of Conduct" Link](../lib/constants.ts#L36)
+  - [ ] [GitHub Authentication](https://github.com/vercel/virtual-event-starter-kit#authentication-and-database)
 
 [virtual_event_starter_kit]: https://github.com/vercel/virtual-event-starter-kit/
 [node_home]: https://nodejs.org/en/
