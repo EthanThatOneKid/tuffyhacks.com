@@ -47,7 +47,8 @@ export default function Layout({ children, className, hideNav, layoutStyles }: P
               <Link href="/">
                 {/* eslint-disable-next-line */}
                 <a className={styles.logo}>
-                  <Logo />
+                  TuffyHacks
+                  {/* <Logo /> */}
                 </a>
               </Link>
             </div>
@@ -65,8 +66,8 @@ export default function Layout({ children, className, hideNav, layoutStyles }: P
               ))}
             </div>
             <div className={cn(styles['header-right'])}>
-              {/* <HostedByVercel /> */}
-              Created by the TuffyHacks Team
+              {/* <HostedByVercel />
+              Created by the TuffyHacks Team */}
             </div>
           </header>
         )}

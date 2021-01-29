@@ -21,7 +21,7 @@ export const BRAND_NAME = 'TuffyHacks';
 export const SITE_NAME_MULTILINE = ['TuffyHacks'];
 export const SITE_NAME = 'TuffyHacks';
 export const META_DESCRIPTION = 'Welcome to TuffyHacks!';
-export const SITE_DESCRIPTION = 'Welcome to TuffyHacks!!';
+export const SITE_DESCRIPTION = 'Welcome to TuffyHacks!';
 export const DATE = 'March 27-28, 2021';
 export const SHORT_DATE = 'Mar 27 - 9:00am PST';
 export const FULL_DATE = 'Mar 27th 9am Pacific Time (GMT-7)';
@@ -36,19 +36,20 @@ export const COPYRIGHT_HOLDER = process.env.NEXT_PUBLIC_COPYRIGHT_HOLDER;
 export const CODE_OF_CONDUCT =
   'https://www.notion.so/vercel/Code-of-Conduct-Example-7ddd8d0e9c354bb597a0faed87310a78';
 export const REPO = 'https://github.com/EthanThatOneKid/tuffyhacks.com';
+export const REGISTRATION = 'https://tinyurl.com/tuffyhacks2021-app';
 export const SAMPLE_TICKET_NUMBER = 1234;
 export const NAVIGATION = [
   {
     name: 'About',
-    route: '#about'
+    route: '/#about'
   },
   {
     name: 'Sponsors',
-    route: '#sponsors'
+    route: '/#sponsors'
   },
   {
     name: 'FAQ',
-    route: '#faq'
+    route: '/#faq'
   }
 ];
 

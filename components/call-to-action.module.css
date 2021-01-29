@@ -1,0 +1,32 @@
+.call-to-action-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.call-to-action {
+  align-self: center;
+  font-family: 'Verlag', sans-serif;
+  text-transform: uppercase;
+  background: var(--tuffyhacks-tan);
+  border: 6px solid var(--tuffyhacks-brown);
+  box-sizing: border-box;
+  border-radius: 6px;
+  padding: 8px 16px 8px 16px;
+  color: var(--tuffyhacks-brown);
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 15px;
+  letter-spacing: 0.04em;
+  text-align: center;
+  min-width: 170px;
+  max-width: 170px;
+  max-height: 80px;
+}
+
+.call-to-action:hover {
+  /* TODO: Create a special hover effect for cta. */
+  cursor: pointer;
+}

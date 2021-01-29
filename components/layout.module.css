@@ -15,10 +15,10 @@
  */
 
 .background {
-  background: #000;
-  color: #fff;
+  background: var(--tuffyhacks-light-green);
+  color: var(--tuffyhacks-brown);
   min-height: 100vh;
-  min-height: var(--100vh);
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
@@ -45,7 +45,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: var(--sidebar);
+  background: var(--tuffyhacks-brown);
   border-bottom: 1px solid var(--accents-7);
   height: var(--header-height);
   z-index: 2;
@@ -90,7 +90,7 @@
   text-transform: uppercase;
   padding: var(--space-4x);
   font-size: 14px;
-  color: var(--secondary-color);
+  color: var(--tuffyhacks-light-tan);
   font-weight: 700;
   letter-spacing: -0.05em;
   height: 100%;
@@ -112,6 +112,5 @@
 }
 
 .logo {
-  display: flex;
-  width: 40px;
+  color: var(--tuffyhacks-tan);
 }

@@ -15,6 +15,7 @@
  */
 
 import cn from 'classnames';
+import CallToAction from './call-to-action';
 import styleUtils from './utils.module.css';
 import styles from './hero.module.css';
 import { BRAND_NAME, DATE, SITE_DESCRIPTION } from '@lib/constants';
@@ -34,7 +35,7 @@ export default function Hero() {
       </h2>
       <h1 className={cn(styleUtils.appear, styleUtils['appear-third'], styles.hero)}>
         {BRAND_NAME}
-        <br className={styleUtils['show-on-desktop']} /> global user conference
+        <br className={styleUtils['show-on-desktop']} />
       </h1>
       <h2
         className={cn(
@@ -53,6 +54,7 @@ export default function Hero() {
           <strong>Online Event</strong>
         </p>
       </div>
+      <CallToAction />
     </div>
   );
 }
