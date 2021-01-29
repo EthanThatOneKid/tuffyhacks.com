@@ -51,7 +51,7 @@ export default function Hero() {
         <p>{DATE}</p>
         <div className={styles['description-separator']} />
         <p>
-          <strong>Online Event</strong>
+          <strong>Online</strong>
         </p>
       </div>
       <CallToAction />
