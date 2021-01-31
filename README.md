@@ -6,6 +6,15 @@
 
 See [`CONTRIBUTING.md`][contributing] to see how you can help contribute to [`tuffyhacks.com`][demo_site].
 
+## Contributors 👷‍♀️
+
+| Credit          | Contributions |
+| --------------- | ------------- |
+| Jacob Nguyen    | Design        |
+| Brian Chung     | Development   |
+| Ethan Davidson  | Development   |
+| Samuel Sandoval | Development   |
+
 ---
 
 Built with 💖 by the [TuffyHacks Team][the_team]
