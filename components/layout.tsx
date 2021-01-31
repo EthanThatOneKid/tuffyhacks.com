@@ -21,7 +21,7 @@ import { SkipNavContent } from '@reach/skip-nav';
 import { NAVIGATION } from '@lib/constants';
 import styles from './layout.module.css';
 import MobileMenu from './mobile-menu';
-import Footer, { HostedByVercel } from './footer';
+import Footer from './footer';
 
 type Props = {
   children: React.ReactNode;
