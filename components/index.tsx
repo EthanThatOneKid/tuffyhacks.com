@@ -15,13 +15,13 @@
  */
 
 import { useState } from 'react';
+import cn from 'classnames';
 import { PageState, ConfDataContext, UserData } from '@lib/hooks/use-conf-data';
 import Ticket from './ticket';
 import Layout from './layout';
 import ConfContainer from './conf-container';
 import Hero from './hero';
-import AboutSection from './about-section';
-import SponsorsSection from './sponsors-section';
+import Tree from './icons/tree';
 
 type Props = {
   defaultUserData: UserData;

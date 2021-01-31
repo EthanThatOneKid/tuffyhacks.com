@@ -1,7 +1,8 @@
 .container {
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  min-height: 100vh;
+  max-height: max-content;
   justify-content: center;
   align-items: center;
   width: 100%;
@@ -22,7 +23,7 @@
 
 .info-container {
   padding-top: 5em;
-  margin: 0 1em 0 1em;
+  margin: 0 2em 0 2em;
 }
 
 .info-container h2 {
@@ -31,9 +32,15 @@
 
 .info-container p {
   font-size: 20px;
+  text-indent: 2em;
 }
 
 @media (min-width: 768px) {
+  .container {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
   .info-container {
     margin: 0;
     width: 480px;

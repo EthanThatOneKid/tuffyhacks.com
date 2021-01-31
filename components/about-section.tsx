@@ -15,11 +15,13 @@ export default function AboutSection() {
           acmCSUF, Theta Tau, and other STEM clubs are uniting to host California State University
           Fullerton's first 24-hour hackathon for beginners and first-time hackers. This year, our
           hackathon will be held virtually on March 27th-28th meaning you can participate from the
-          comfort of your own home! Come learn new topics with workshops ranging from{' '}
-          <em>Intro to Design</em> to <em>Create Your Own Discord Bot</em>. You can even meet
-          representatives from our generous sponsors during our networking event. Your project also
-          has the chance to win cool prizes! We hope that you are as excited about this event as we
-          are!
+          comfort of your own home!
+        </p>
+        <p>
+          Come learn new topics with workshops ranging from <em>Intro to Design</em> to{' '}
+          <em>Create Your Own Discord Bot</em>. You can even meet representatives from our generous
+          sponsors during our networking event. Your project also has the chance to win cool prizes!
+          We hope that you are as excited about this event as we are!
         </p>
       </div>
     </section>

@@ -1,10 +1,10 @@
 interface Props {
-  width: number;
-  height: number;
-  leafColor: string;
-  trunkColor: string;
-  outlineColor: string;
-  type: keyof typeof trees;
+  width?: number;
+  height?: number;
+  leafColor?: string;
+  trunkColor?: string;
+  outlineColor?: string;
+  type?: keyof typeof trees;
 }
 
 export default function Tree({

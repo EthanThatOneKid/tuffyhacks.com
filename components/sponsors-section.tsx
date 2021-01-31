@@ -1,10 +1,11 @@
+import cn from 'classnames';
 import styles from './sponsors-section.module.css';
 import CallToAction from './call-to-action';
 import { SPONSORSHIP } from '@lib/constants';
 
 export default function SponsorsSection() {
   return (
-    <section id="sponsors">
+    <section id="sponsors" className={cn(styles.container)}>
       <div>
         <h2>Sponsors</h2>
         <div>Coming soon...</div>
