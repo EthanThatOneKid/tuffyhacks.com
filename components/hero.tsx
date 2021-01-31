@@ -18,7 +18,7 @@ import cn from 'classnames';
 import CallToAction from './call-to-action';
 import styleUtils from './utils.module.css';
 import styles from './hero.module.css';
-import { BRAND_NAME, DATE, SITE_DESCRIPTION } from '@lib/constants';
+import { BRAND_NAME, DATE, SITE_DESCRIPTION, REGISTRATION } from '@lib/constants';
 
 export default function Hero() {
   return (
@@ -49,12 +49,21 @@ export default function Hero() {
       </h2>
       <div className={cn(styleUtils.appear, styleUtils['appear-third'], styles.info)}>
         <p>{DATE}</p>
-        <div className={styles['description-separator']} />
+        <div className={styles['description-separator']}>•</div>
         <p>
           <strong>Online</strong>
         </p>
       </div>
-      <CallToAction classes={[styleUtils.appear, styleUtils['appear-third']]} />
+      <div
+        className={cn(
+          styles['call-to-action-container'],
+          styleUtils.appear,
+          styleUtils['appear-third']
+        )}
+      >
+        <CallToAction text="Register Now" link={REGISTRATION} />
+        <CallToAction text="Learn More" link="/#about" />
+      </div>
     </div>
   );
 }

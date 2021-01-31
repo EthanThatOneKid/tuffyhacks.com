@@ -59,6 +59,13 @@
   margin: 0;
 }
 
+.call-to-action-container {
+  display: flex;
+  flex-direction: column;
+  height: 150px;
+  justify-content: space-evenly;
+}
+
 @media (min-width: 768px) {
   .hero {
     font-size: 100px;
@@ -76,5 +83,10 @@
     font-size: var(--space-8x);
     max-width: 531px;
     margin: 40px auto;
+  }
+
+  .call-to-action-container {
+    flex-direction: row;
+    height: inherit;
   }
 }

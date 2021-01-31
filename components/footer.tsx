@@ -15,32 +15,25 @@
  */
 
 import cn from 'classnames';
-import VercelLogo from '@components/icons/icon-platform';
 import TuffyHacksLogo from '@components/icons/tuffy-badge';
 import styles from './footer.module.css';
 import { COPYRIGHT_HOLDER, SITE_NAME, CODE_OF_CONDUCT, LEGAL_URL, REPO } from '@lib/constants';
-
-export function HostedByVercel() {
-  return (
-    <a
-      href="https://vercel.com"
-      className={cn(styles['footer-link'], styles['footer-logo'])}
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      <div className={styles['secondary-text']}>
-        Created by <TuffyHacksLogo width={100} height={100} />
-      </div>
-    </a>
-  );
-}
 
 export default function Footer() {
   return (
     <footer className={cn(styles.footer)}>
       <div className={styles['footer-legal']}>
         <div className={styles['footer-hostedby']}>
-          <HostedByVercel />
+          <a
+            href="https://acmcsuf.com"
+            className={cn(styles['footer-link'], styles['footer-logo'])}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className={styles['secondary-text']}>
+              Created by <TuffyHacksLogo width={100} height={100} />
+            </div>
+          </a>
           <div className={styles['footer-separator']} />
         </div>
         <div className={styles['footer-copyright']}>

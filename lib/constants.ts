@@ -37,6 +37,7 @@ export const CODE_OF_CONDUCT =
   'https://www.notion.so/vercel/Code-of-Conduct-Example-7ddd8d0e9c354bb597a0faed87310a78';
 export const REPO = 'https://github.com/EthanThatOneKid/tuffyhacks.com';
 export const REGISTRATION = 'https://tinyurl.com/tuffyhacks2021-app';
+export const SPONSORSHIP = 'https://tinyurl.com/tuffyhacks-sponsorship';
 export const SAMPLE_TICKET_NUMBER = 1234;
 export const NAVIGATION = [
   {

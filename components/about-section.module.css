@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: var(--tuffyhacks-black);
+  color: var(--tuffyhacks-elephant-grey);
+}
+
+.statistics {
+  display: flex;
+  flex-direction: column;
+}
+
+.statistics p {
+  text-align: center;
+  font-size: 40px;
+  line-height: 40px;
+}
+
+.info-container {
+  padding-top: 5em;
+  margin: 0 1em 0 1em;
+}
+
+.info-container h2 {
+  font-size: 40px;
+}
+
+.info-container p {
+  font-size: 20px;
+}
+
+@media (min-width: 768px) {
+  .info-container {
+    margin: 0;
+    width: 480px;
+  }
+}

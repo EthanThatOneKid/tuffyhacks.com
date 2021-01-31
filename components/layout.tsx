@@ -20,10 +20,8 @@ import { useRouter } from 'next/router';
 import { SkipNavContent } from '@reach/skip-nav';
 import { NAVIGATION } from '@lib/constants';
 import styles from './layout.module.css';
-import Logo from './icons/icon-logo';
 import MobileMenu from './mobile-menu';
 import Footer, { HostedByVercel } from './footer';
-// import ViewSource from '@components/view-source';
 
 type Props = {
   children: React.ReactNode;
@@ -38,7 +36,6 @@ export default function Layout({ children, className, hideNav, layoutStyles }: P
 
   return (
     <>
-      {/* <ViewSource /> */}
       <div className={styles.background}>
         {!hideNav && (
           <header className={cn(styles.header)}>
@@ -46,10 +43,7 @@ export default function Layout({ children, className, hideNav, layoutStyles }: P
               <MobileMenu key={router.asPath} />
               <Link href="/">
                 {/* eslint-disable-next-line */}
-                <a className={styles.logo}>
-                  TuffyHacks
-                  {/* <Logo /> */}
-                </a>
+                <a className={styles.logo}>TuffyHacks</a>
               </Link>
             </div>
             <div className={styles.tabs}>
@@ -65,10 +59,10 @@ export default function Layout({ children, className, hideNav, layoutStyles }: P
                 </Link>
               ))}
             </div>
-            <div className={cn(styles['header-right'])}>
-              {/* <HostedByVercel />
-              Created by the TuffyHacks Team */}
-            </div>
+            {/* <div className={cn(styles['header-right'])}>
+              <HostedByVercel />
+              Created by the TuffyHacks Team
+            </div> */}
           </header>
         )}
         <div className={styles.page}>

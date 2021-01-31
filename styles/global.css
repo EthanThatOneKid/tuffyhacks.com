@@ -49,7 +49,7 @@
   --tuffyhacks-elephant-grey: #9e9b90;
   --tuffyhacks-dark-brown-cloth: #644117;
   --tuffyhacks-brown: #513513;
-  --tuffyhacks-black-gradient: #0f123d;
+  --tuffyhacks-black: #0f123d;
 
   --accents-1: var(--tuffyhacks-light-tan);
   --accents-2: var(--tuffyhacks-tan);
@@ -58,7 +58,7 @@
   --accents-5: var(--tuffyhacks-elephant-grey);
   --accents-6: var(--tuffyhacks-dark-brown-cloth);
   --accents-7: var(--tuffyhacks-brown);
-  --accents-8: var(--tuffyhacks-black-gradient);
+  --accents-8: var(--tuffyhacks-black);
 
   /*
   --accents-1: #fafafa;

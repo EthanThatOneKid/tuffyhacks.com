@@ -5,15 +5,19 @@ import styles from './call-to-action.module.css';
 // TODO:
 // Allow for custom text and link.
 interface Props {
-  classes: string[];
+  text?: string;
+  link?: string;
+  classes?: string[];
 }
 
-export default function CallToAction({ classes }: Props) {
+export default function CallToAction({
+  text = 'Register Now',
+  link = REGISTRATION,
+  classes = []
+}: Props) {
   return (
-    <div className={cn(styles['call-to-action-container'])}>
-      <a href={REGISTRATION} className={cn(styles['call-to-action'], ...classes)}>
-        Register Now
-      </a>
-    </div>
+    <a href={link} className={cn(styles['call-to-action'], ...classes)}>
+      {text}
+    </a>
   );
 }
