@@ -15,6 +15,14 @@ export default function SponsorsSection() {
         </p>
         <CallToAction text="Become a Sponsor" link={SPONSORSHIP} />
       </div>
+      <div className={cn(styles['sponsors-illustration-container'])}>
+        <div>
+          <img src="/assets/tree.png" />
+        </div>
+        <div>
+          <img src="/assets/trailer.png" />
+        </div>
+      </div>
     </section>
   );
 }

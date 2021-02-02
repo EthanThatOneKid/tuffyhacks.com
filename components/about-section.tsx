@@ -24,6 +24,14 @@ export default function AboutSection() {
           We hope that you are as excited about this event as we are!
         </p>
       </div>
+      <div className={cn(styles['about-illustration-container'])}>
+        <div>
+          <img src="/assets/moon.png" />
+        </div>
+        <div>
+          <img src="/assets/campfire.png" />
+        </div>
+      </div>
     </section>
   );
 }
