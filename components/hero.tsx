@@ -64,6 +64,14 @@ export default function Hero() {
         <CallToAction text="Register Now" link={REGISTRATION} />
         <CallToAction text="Learn More" link="/#about" />
       </div>
+      <div className={cn(styles['hero-illustrations-container'])}>
+        <div>
+          <img src="/assets/tuffy-camper.png" />
+        </div>
+        <div>
+          <img src="/assets/tent.png" />
+        </div>
+      </div>
     </div>
   );
 }
