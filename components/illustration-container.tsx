@@ -6,5 +6,5 @@ interface Props {
 }
 
 export default function IllustrationContainer({ children }: Props) {
-  return <div className={styles['illustration-container']}>{...children}</div>;
+  return <div className={cn(styles['illustration-container'])}>{children}</div>;
 }

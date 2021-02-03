@@ -17,8 +17,8 @@
 import cn from 'classnames';
 import CallToAction from './call-to-action';
 import IllustrationContainer from './illustration-container';
-import TuffyCamper from './icons/tuffy-camper';
-import TuffyTent from './icons/tuffy-tent';
+import TuffyCamper from './illustrations/tuffy-camper';
+import TuffyTent from './illustrations/tuffy-tent';
 import styleUtils from './utils.module.css';
 import styles from './hero.module.css';
 import { BRAND_NAME, DATE, SITE_DESCRIPTION, REGISTRATION } from '@lib/constants';
@@ -67,10 +67,10 @@ export default function Hero() {
         <CallToAction text="Register Now" link={REGISTRATION} />
         <CallToAction text="Learn More" link="/#about" />
       </div>
-      {/* <IllustrationContainer>
-        <TuffyCamper />
+      <IllustrationContainer>
+        <TuffyCamper x="50%" y="50%" width={512} height={512} />
         <TuffyTent />
-      </IllustrationContainer> */}
+      </IllustrationContainer>
     </div>
   );
 }
