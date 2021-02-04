@@ -1,9 +1,18 @@
 import cn from 'classnames';
+import IllustrationContainer from './illustration-container';
+import Moon from './illustrations/tuffy-moon';
+import Campfire from './illustrations/tuffy-campfire';
+import MarshmellowOnAStick from './illustrations/marshmellow-on-a-stick';
 import styles from './about-section.module.css';
 
 export default function AboutSection() {
   return (
     <section id="about" className={cn(styles.container)}>
+      <IllustrationContainer>
+        <Moon top="2em" left="2em" width="17vw" />
+        <Campfire bottom="0" left="16vw" width="17vw" />
+        <MarshmellowOnAStick bottom="8em" left="0" width="16vw" />
+      </IllustrationContainer>
       <div className={cn(styles.statistics)}>
         <p>300 Hackers</p>
         <p>24 Hours</p>
@@ -23,14 +32,6 @@ export default function AboutSection() {
           sponsors during our networking event. Your project also has the chance to win cool prizes!
           We hope that you are as excited about this event as we are!
         </p>
-      </div>
-      <div className={cn(styles['about-illustration-container'])}>
-        <div>
-          <img src="/assets/moon.png" />
-        </div>
-        <div>
-          <img src="/assets/campfire.png" />
-        </div>
       </div>
     </section>
   );
