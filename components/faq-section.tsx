@@ -34,19 +34,20 @@ const faqEntries: FaqEntry[] = [
     question: 'How many people can I have per group?',
     answer: 'You may have a maximum of four group members.'
   },
-  {
-    question: 'Question not found?',
-    answer:
-      "Please email tuffyhacks@gmail.com if you have any questions! We'd love to hear from you."
-  },
+
   {
     question: 'When and where is TuffyHacks??',
     answer:
       'TuffyHacks is taking place from March 27th to March 28th. Due to the COVID-19 pandemic and for the health and safety of all students, this hackathon will be held virtually.'
   },
   {
-    question: 'When do hacker applications open?',
-    answer: 'Check back on the website sometime in January 2021.'
+    question: 'What can I build?',
+    answer: 'Check back on the website sometime in February 2021.'
+  },
+  {
+    question: 'Question not found?',
+    answer:
+      "Please email tuffyhacks@gmail.com if you have any questions! We'd love to hear from you."
   }
 ];
 
