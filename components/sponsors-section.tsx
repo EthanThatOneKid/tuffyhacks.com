@@ -12,8 +12,8 @@ export default function SponsorsSection() {
       <IllustrationContainer>
         <Tree type="square" leafColor={LEAF_COLORS[3]} bottom="0" left="2vw" width="20vw" />
         <Tree type="square" leafColor={LEAF_COLORS[3]} bottom="0" left="10vw" width="22vw" />
-        <Tree type="curvy" leafColor={LEAF_COLORS[0]} bottom="0" right="2vw" width="30vw" />
-        <Trailer bottom="0" right="5vw" width="43vw" />
+        <Tree type="curvy" leafColor={LEAF_COLORS[0]} bottom="0" right="2vw" width="25vw" />
+        <Trailer bottom="0" right="5vw" width="38vw" />
       </IllustrationContainer>
       <div className={cn(styles['info-container'])}>
         <h2>Sponsors</h2>
