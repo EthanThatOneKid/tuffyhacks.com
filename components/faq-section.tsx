@@ -42,12 +42,13 @@ const faqEntries: FaqEntry[] = [
   },
   {
     question: 'What can I build?',
-    answer: 'Check back on the website sometime in February 2021.'
+    answer:
+      "Anything your heart desires! Web, mobile, gaming, VR... You name it, we'll support it. We have five challenges that will have extra resources, sponsored challenges, and other events to inspire you."
   },
   {
     question: 'Question not found?',
     answer:
-      "Please email tuffyhacks@gmail.com if you have any questions! We'd love to hear from you."
+      "Please email info@tuffyhacks.com if you have any questions! We'd love to hear from you."
   }
 ];
 
