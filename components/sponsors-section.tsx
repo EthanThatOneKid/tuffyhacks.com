@@ -12,7 +12,7 @@ export default function SponsorsSection() {
       <IllustrationContainer>
         <Tree type="square" leafColor={LEAF_COLORS[3]} bottom="0" left="5vw" width="22.5vw" />
         <Tree type="square" leafColor={LEAF_COLORS[3]} bottom="0" left="5vw" width="22.5vw" />
-        <Tree type="curvy" leafColor={LEAF_COLORS[3]} bottom="0" left="5vw" width="22.5vw" />
+        <Tree type="curvy" leafColor={LEAF_COLORS[0]} bottom="0" left="5vw" width="22.5vw" />
         <Trailer bottom="0" left="15vw" width="15vw" />
       </IllustrationContainer>
       <div>
