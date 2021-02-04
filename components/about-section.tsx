@@ -34,7 +34,7 @@ export default function AboutSection() {
           sponsors during our networking event. Your project also has the chance to win cool prizes!
           We hope that you are as excited about this event as we are!
         </p>
-        <CallToAction text="Register" link={REGISTRATION} />
+        <CallToAction text="Apply" link={REGISTRATION} />
       </div>
     </section>
   );
