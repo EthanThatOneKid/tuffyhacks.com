@@ -1,9 +1,11 @@
 import cn from 'classnames';
+import CallToAction from './call-to-action';
 import IllustrationContainer from './illustration-container';
 import Moon from './illustrations/tuffy-moon';
 import Campfire from './illustrations/tuffy-campfire';
 import MarshmellowOnAStick from './illustrations/marshmellow-on-a-stick';
 import styles from './about-section.module.css';
+import { REGISTRATION } from '@lib/constants';
 
 export default function AboutSection() {
   return (
@@ -32,6 +34,7 @@ export default function AboutSection() {
           sponsors during our networking event. Your project also has the chance to win cool prizes!
           We hope that you are as excited about this event as we are!
         </p>
+        <CallToAction text="Register" link={REGISTRATION} />
       </div>
     </section>
   );

@@ -10,14 +10,16 @@ export default function SponsorsSection() {
   return (
     <section id="sponsors" className={cn(styles.container)}>
       <IllustrationContainer>
-        <Tree type="square" leafColor={LEAF_COLORS[3]} bottom="0" left="5vw" width="22.5vw" />
-        <Tree type="square" leafColor={LEAF_COLORS[3]} bottom="0" left="5vw" width="22.5vw" />
-        <Tree type="curvy" leafColor={LEAF_COLORS[0]} bottom="0" left="5vw" width="22.5vw" />
-        <Trailer bottom="0" left="15vw" width="15vw" />
+        <Tree type="square" leafColor={LEAF_COLORS[3]} bottom="0" left="2vw" width="20vw" />
+        <Tree type="square" leafColor={LEAF_COLORS[3]} bottom="0" left="10vw" width="22vw" />
+        <Tree type="curvy" leafColor={LEAF_COLORS[0]} bottom="0" right="2vw" width="30vw" />
+        <Trailer bottom="0" right="5vw" width="43vw" />
       </IllustrationContainer>
-      <div>
+      <div className={cn(styles['info-container'])}>
         <h2>Sponsors</h2>
-        <div>Coming soon...</div>
+        <div>
+          <p>Coming soon...</p>
+        </div>
         <p>
           Interested in sponsoring? Check out our 2021 sponsorship package. Click here for more
           details and instructions on how to sponsor.

@@ -7,13 +7,19 @@ interface Props {
   type?: keyof typeof trees;
 }
 
+const treeViewBoxes = {
+  square: '0 0 320 345',
+  round: '0 0 296 364',
+  curvy: '0 0 300 374'
+} as const;
+
 export default function Tree(props: Illustration['props'] & Props) {
   return (
     <Illustration {...props}>
       <svg
         width={props.width}
         height={props.height}
-        viewBox="0 0 300 375"
+        viewBox={treeViewBoxes[props.type ?? 'curvy']}
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
       >

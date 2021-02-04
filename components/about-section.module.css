@@ -9,6 +9,7 @@
   width: 100%;
   background-color: var(--tuffyhacks-black);
   color: var(--tuffyhacks-light-tan);
+  padding: 5em 0 5em 0;
 }
 
 .statistics {
@@ -37,6 +38,10 @@
   text-indent: 2em;
 }
 
+.info-container p:last-of-type {
+  margin-bottom: 2em;
+}
+
 @media (min-width: 768px) {
   .container {
     flex-direction: row;
@@ -48,15 +53,4 @@
     padding-top: 0;
     width: 480px;
   }
-}
-
-.about-illustration-container {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  padding: 120px 60px 0 60px;
 }
