@@ -29,9 +29,9 @@ export default function Hero() {
   return (
     <section className={cn(styles.wrapper)}>
       <IllustrationContainer>
-        <Tree type="curvy" leafColor={LEAF_COLORS[0]} bottom="0" left="5vw" width="22.5vw" />
-        <Tree type="round" leafColor={LEAF_COLORS[1]} bottom="0" left="25vw" width="20vw" />
-        <Tree type="round" leafColor={LEAF_COLORS[2]} bottom="0" left="40vw" width="17.5vw" />
+        <Tree type="curvy" leafColor={LEAF_COLORS[0]} bottom="0" left="5vw" width="20.5vw" />
+        <Tree type="round" leafColor={LEAF_COLORS[1]} bottom="0" left="25vw" width="18vw" />
+        <Tree type="round" leafColor={LEAF_COLORS[2]} bottom="0" left="40vw" width="15.5vw" />
         <TuffyCamper bottom="0" left="15vw" width="15vw" />
         <TuffyTent bottom="0" right="0" width="37.5vw" />
       </IllustrationContainer>
