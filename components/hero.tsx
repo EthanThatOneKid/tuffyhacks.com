@@ -45,10 +45,26 @@ export default function Hero() {
       >
         {SITE_DESCRIPTION}
       </h2>
-      <h1 className={cn(styleUtils.appear, styleUtils['appear-first'], styles.hero)}>
+      <h1
+        className={cn(
+          styleUtils.appear,
+          styleUtils['appear-first'],
+          styleUtils['show-on-mobile'],
+          styles.hero
+        )}
+      >
         {BRAND_NAME}
-        <br className={styleUtils['show-on-desktop']} />
       </h1>
+      <img
+        className={cn(
+          styleUtils.appear,
+          styleUtils['appear-first'],
+          styleUtils['hide-on-mobile'],
+          styles.hero
+        )}
+        src="/assets/splash.png"
+        alt="TuffyHacks Spash Image"
+      />
       <h2
         className={cn(
           styleUtils.appear,
