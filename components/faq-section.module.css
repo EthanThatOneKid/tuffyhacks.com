@@ -14,6 +14,7 @@
 .faq-title {
   margin-bottom: 1em;
   font-size: 40px;
+  text-align: center;
 }
 
 .faq-list {
@@ -23,7 +24,13 @@
   grid-auto-flow: dense;
 }
 
-/* .faq-list-item {} */
+.faq-list-item h3 {
+  font-size: 22pt;
+}
+
+.faq-list-item p {
+  font-size: 16pt;
+}
 
 @media (min-width: 768px) {
   .faq-list {
