@@ -1,8 +1,6 @@
 import Illustration from '../illustration';
 
 interface Props {
-  width?: number;
-  height?: number;
   leafColor?: string;
   trunkColor?: string;
   outlineColor?: string;
@@ -13,8 +11,8 @@ export default function Tree(props: Illustration['props'] & Props) {
   return (
     <Illustration {...props}>
       <svg
-        width={props.width ?? 300}
-        height={props.height ?? 375}
+        width={props.width}
+        height={props.height}
         viewBox="0 0 300 375"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"

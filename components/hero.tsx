@@ -15,9 +15,11 @@
  */
 
 import cn from 'classnames';
+import { LEAF_COLORS } from '@lib/constants';
 import CallToAction from './call-to-action';
 import IllustrationContainer from './illustration-container';
 import TuffyCamper from './illustrations/tuffy-camper';
+import Tree from './illustrations/tree';
 import TuffyTent from './illustrations/tuffy-tent';
 import styleUtils from './utils.module.css';
 import styles from './hero.module.css';
@@ -25,7 +27,14 @@ import { BRAND_NAME, DATE, SITE_DESCRIPTION, REGISTRATION } from '@lib/constants
 
 export default function Hero() {
   return (
-    <div className={styles.wrapper}>
+    <section className={cn(styles.wrapper)}>
+      <IllustrationContainer>
+        <Tree bottom="0" left="5vw" width="22.5vw" type="curvy" leafColor={LEAF_COLORS[0]} />
+        <Tree bottom="0" left="25vw" width="20vw" type="round" leafColor={LEAF_COLORS[1]} />
+        <Tree bottom="0" left="40vw" width="17.5vw" type="round" leafColor={LEAF_COLORS[2]} />
+        <TuffyCamper bottom="0" left="15vw" width="15vw" />
+        <TuffyTent bottom="0" right="0" width="37.5vw" />
+      </IllustrationContainer>
       <h2
         className={cn(
           styleUtils.appear,
@@ -67,10 +76,6 @@ export default function Hero() {
         <CallToAction text="Register Now" link={REGISTRATION} />
         <CallToAction text="Learn More" link="/#about" />
       </div>
-      <IllustrationContainer>
-        <TuffyCamper x="50%" y="50%" width={512} height={512} />
-        <TuffyTent />
-      </IllustrationContainer>
-    </div>
+    </section>
   );
 }

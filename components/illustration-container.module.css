@@ -4,20 +4,25 @@
   height: 100%;
   top: 0;
   left: 0;
-  border: 5px solid rgba(255, 0, 255, 255);
-  background-color: rgba(255, 0, 255, 0.1);
 }
 
 .illustration-object {
+  --x-position: initial;
+  --y-position: initial;
+  --top-offset: initial;
+  --right-offset: initial;
+  --bottom-offset: initial;
+  --left-offset: initial;
+  --custom-width: initial;
+  --custom-height: initial;
   position: absolute;
-  width: initial;
-  height: initial;
-  top: inherit;
-  left: inherit;
+  display: flex;
   width: var(--custom-width);
   height: var(--custom-height);
-  top: var(--y-position);
-  left: var(--x-position);
-  border: 5px solid rgba(255, 127, 255, 255);
-  object-position: center center;
+  top: var(--top-offset);
+  right: var(--right-offset);
+  bottom: var(--bottom-offset);
+  left: var(--left-offset);
 }
+
+/* .illustration-object svg {} */

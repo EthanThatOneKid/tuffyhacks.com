@@ -54,4 +54,6 @@ export const NAVIGATION = [
   }
 ];
 
+export const LEAF_COLORS = ['#94a71c', '#b1c046', '#767d3a'];
+
 export type TicketGenerationState = 'default' | 'loading';

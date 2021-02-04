@@ -14,10 +14,6 @@
  * limitations under the License.
  */
 
-.wrapper {
-  margin-top: var(--space-12x);
-}
-
 .hero {
   font-size: 52px;
   line-height: 1.15;
@@ -67,6 +63,10 @@
 }
 
 @media (min-width: 768px) {
+  .wrapper {
+    margin-top: -20rem;
+  }
+
   .hero {
     font-size: 100px;
     line-height: 1;
@@ -89,15 +89,4 @@
     flex-direction: row;
     height: inherit;
   }
-}
-
-.hero-illustrations-container {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-  padding: 0 60px 0 60px;
 }

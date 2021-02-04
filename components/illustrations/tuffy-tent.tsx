@@ -4,8 +4,8 @@ export default function TuffyCamper(props: Illustration['props']) {
   return (
     <Illustration {...props}>
       <svg
-        width={props.width ?? 512}
-        height={props.height ?? 330}
+        width={props.width}
+        height={props.height}
         viewBox="0 0 519 330"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
