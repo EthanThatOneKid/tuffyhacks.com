@@ -14,6 +14,7 @@
  * limitations under the License.
  */
 
+import { useRef, useEffect } from 'react';
 import { useRouter } from 'next/router';
 import { SkipNavContent } from '@reach/skip-nav';
 
@@ -23,9 +24,11 @@ import AboutSection from '@components/about-section';
 import SponsorsSection from '@components/sponsors-section';
 import FaqSection from '@components/faq-section';
 import { META_DESCRIPTION } from '@lib/constants';
+import { scrollTo } from '@lib/smooth-scroll';
 
 export default function Conf() {
-  const { query } = useRouter();
+  const router = useRouter();
+  const { query } = router;
   const meta = {
     title: 'TuffyHacks 2021',
     description: META_DESCRIPTION
@@ -37,6 +40,32 @@ export default function Conf() {
     name: query.name?.toString(),
     username: query.username?.toString()
   };
+
+  /* Smooth Scrolling Attempt
+  const aboutSectionContainerRef = useRef<HTMLDivElement>(null);
+  const sponsorsSectionContainerRef = useRef<HTMLDivElement>(null);
+  const faqSectionContainerRef = useRef<HTMLDivElement>(null);
+  useEffect(() => {
+    const handleRouteChange = (url: string) => {
+      const targetRef =
+        url === '/#about'
+          ? aboutSectionContainerRef
+          : url === '/#sponsors'
+          ? sponsorsSectionContainerRef
+          : url === '/#faq'
+          ? faqSectionContainerRef
+          : undefined;
+      if (targetRef !== undefined) {
+        console.log({ url, targetRef });
+        scrollTo(targetRef.current as HTMLElement);
+      }
+    };
+    router.events.on('hashChangeStart', handleRouteChange);
+    return () => {
+      router.events.off('hashChangeStart', handleRouteChange);
+    };
+  }, []);
+  */
 
   return (
     <Page meta={meta} fullViewport>

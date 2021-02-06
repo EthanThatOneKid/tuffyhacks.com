@@ -116,6 +116,7 @@ body {
 }
 html,
 body {
+  scroll-behavior: smooth;
   color: #fff;
   background-color: #111;
 }

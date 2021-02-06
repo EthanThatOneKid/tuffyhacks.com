@@ -21,7 +21,6 @@ import Ticket from './ticket';
 import Layout from './layout';
 import ConfContainer from './conf-container';
 import Hero from './hero';
-import Tree from './icons/tree';
 
 type Props = {
   defaultUserData: UserData;
