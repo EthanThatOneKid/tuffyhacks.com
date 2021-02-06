@@ -89,7 +89,6 @@ html {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* overflow-x: hidden; */
 }
 *,
 *:before,
@@ -116,6 +115,7 @@ body {
 }
 html,
 body {
+  /* overflow-x: hidden; // Uncomment in case of EMERGENCY */
   scroll-behavior: smooth;
   color: #fff;
   background-color: #111;
