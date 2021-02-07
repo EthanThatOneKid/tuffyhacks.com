@@ -61,13 +61,6 @@ export default function Page({ meta, children, fullViewport = false }: Props) {
           crossOrigin="anonymous"
           href="https://fonts.cdnfonts.com/css/verlag"
         />
-        {/* <link
-          rel="preload"
-          href="https://assets.vercel.com/raw/upload/v1587415301/fonts/2/inter-var-latin.woff2"
-          as="font"
-          type="font/woff2"
-          crossOrigin="anonymous"
-        /> */}
         {image && (
           <meta
             property="og:image"
