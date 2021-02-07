@@ -7,6 +7,10 @@ interface TeamMember {
   picture?: string;
 }
 
+// TODO:
+// Upload headshot assets of team members:
+// https://www.notion.so/samuelsandoval/Team-Info-5cb7d4b7c3814303a1ecb34146974821
+
 export const teamMembers: TeamMember[] = [
   {
     name: 'Sam Sandoval',
