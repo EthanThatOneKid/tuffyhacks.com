@@ -31,6 +31,10 @@ When you finish making your changes, feel free to send a pull request!
 This site is deployed on [Vercel][vercel_home].
 The platform is the simplest solution for hosting this event.
 
+## Resources
+
+- https://cards-dev.twitter.com/validator
+
 ## Todo
 
 - [x] Replace components one by one using the [new design](https://www.figma.com/file/X7GKSRwLKZbslV1zimyixz/TuffyHacks-Web-Design?node-id=385%3A580).

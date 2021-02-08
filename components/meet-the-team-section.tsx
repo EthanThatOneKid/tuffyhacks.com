@@ -12,10 +12,15 @@ export default function MeetTheTeamSection() {
           {teamMembers.map(({ name, role, pronouns, year, major, picture }) => {
             return (
               <div key={name} className={cn(styles['team-member'])}>
-                {picture !== undefined && <img src={picture} alt={`Picture of ${name}'s face.`} />}
-                {[name, role, pronouns, year, major].map(text => (
-                  <p>{text}</p>
-                ))}
+                <img
+                  src={`team-members/${picture || 'placeholder.png'}`}
+                  alt={`Picture of ${name}'s face.`}
+                />
+                <p>{name}</p>
+                <p>{role}</p>
+                <p>{pronouns}</p>
+                <p>{year !== 'Alumni' ? `${year} Year` : year}</p>
+                <p>{major}</p>
               </div>
             );
           })}

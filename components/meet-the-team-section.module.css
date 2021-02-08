@@ -1,11 +1,51 @@
 .container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  max-height: max-content;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: var(--tuffyhacks-light-green);
+  color: var(--tuffyhacks-brown);
+  padding: 5em 0 5em 0;
 }
 
 .team-title {
+  margin-bottom: 1em;
+  font-size: 40px;
+  text-align: center;
 }
 
 .team-list {
+  margin: 0 2em 5em 2em;
+  gap: 2em;
+  display: grid;
+  grid-auto-flow: dense;
 }
 
 .team-member {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 3em;
+}
+
+.team-member img {
+  width: 200px;
+  border-radius: 50%;
+  align-self: center;
+}
+
+.team-member p {
+  font-size: 16pt;
+  line-height: 18px;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .team-list {
+    grid-template-columns: repeat(3, 1fr);
+    width: 90vw;
+  }
 }
