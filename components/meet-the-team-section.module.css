@@ -27,6 +27,7 @@
 .team-member {
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-direction: column;
   margin-top: 3em;
 }
@@ -40,8 +41,8 @@
 
 .team-member p {
   font-size: 16pt;
-  line-height: 10px;
   text-align: center;
+  margin: 10px;
 }
 
 .team-member p:first-of-type {
@@ -52,5 +53,11 @@
   .team-list {
     grid-template-columns: repeat(3, 1fr);
     width: 90vw;
+  }
+}
+
+@media (min-width: 1012px) {
+  .team-list {
+    grid-template-columns: repeat(4, 1fr);
   }
 }
