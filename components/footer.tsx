@@ -42,6 +42,12 @@ export default function Footer() {
         </div>
         <div className={styles['footer-center-group']}>
           <p className={styles['footer-paragraph']}>
+            <a href="/meet-the-team" className={styles['footer-link']}>
+              Meet the Team
+            </a>
+          </p>
+          <div className={styles['footer-separator']} />
+          <p className={styles['footer-paragraph']}>
             <a
               href={REPO}
               className={styles['footer-link']}

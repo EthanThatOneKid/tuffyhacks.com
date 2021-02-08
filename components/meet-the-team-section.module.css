@@ -35,12 +35,17 @@
   width: 200px;
   border-radius: 50%;
   align-self: center;
+  margin-bottom: 2em;
 }
 
 .team-member p {
   font-size: 16pt;
-  line-height: 18px;
+  line-height: 10px;
   text-align: center;
+}
+
+.team-member p:first-of-type {
+  font-weight: bold;
 }
 
 @media (min-width: 768px) {
