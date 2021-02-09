@@ -64,7 +64,7 @@ export const teamMembers: TeamMember[] = [
     picture: 'nafis-chowdhury.jpg'
   },
   {
-    name: 'Connor Cook',
+    name: 'Conner Cook',
     role: 'Hacker Experience Officer',
     major: 'Computer Science',
     pronouns: 'he/him',
