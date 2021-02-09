@@ -39,7 +39,9 @@ export default function Page({ meta, children, fullViewport = false }: Props) {
   const title = meta.title || SITE_NAME;
   const url = meta.url || `${SITE_URL}${router.asPath}`;
   const description = meta.description || SITE_NAME;
-  const imageContent = image.startsWith('https://') ? image : `${SITE_URL}${image}`;
+  const imageContent = !image.startsWith('https://')
+    ? `${SITE_URL}${image}`.replace(/\/+/g, "/")
+    : image;
 
   return (
     <div className={cn('page-container', { full: fullViewport })}>
