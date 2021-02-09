@@ -50,6 +50,7 @@ export default function Page({ meta, children, fullViewport = false }: Props) {
         <meta property="og:title" content={title} />
         <meta property="og:url" content={url} />
         <meta property="og:description" content={description} />
+        <meta property="og:type" content="website" />
 
         <meta name="twitter:site" content={`@${TWITTER_USER_NAME}`} />
         <meta name="twitter:card" content={image ? 'summary_large_image' : 'summary'} />
