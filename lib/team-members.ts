@@ -41,7 +41,7 @@ export const teamMembers: TeamMember[] = [
     role: 'Head of Logistics & Finance',
     major: 'Computer Science',
     pronouns: 'he/him',
-    year: '4th',
+    year: '5th',
     discord: 'SushiShwarma#3513',
     picture: 'rushi-sharma.jpeg'
   },
