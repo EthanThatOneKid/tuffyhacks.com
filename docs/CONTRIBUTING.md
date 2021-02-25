@@ -39,7 +39,7 @@ Only authorized TuffyHacks team members have access to this notion.
 This project is built with Next.js, a powerful framework for maintaining web applications.
 If you are new to Next.js, you do not need to understand how it works in order to contribute.
 As long as you can write code using context clues, your help is valuable to the project.
-[React][react_home] knowledge is helpful since our user interface is written in React.
+[React][react_docs] knowledge is helpful since our user interface is written in React.
 See the official [Next.js documentation][next_docs] if you are interested in learning Next.js for yourself.
 
 [virtual_event_starter_kit]: https://github.com/vercel/virtual-event-starter-kit/
