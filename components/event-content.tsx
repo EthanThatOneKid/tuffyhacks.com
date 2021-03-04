@@ -27,10 +27,19 @@ export default function EventContent() {
           className={cn(
             styles['call-to-action-container'],
             styleUtils.appear,
-            styleUtils['appear-second']
+            styleUtils['appear-third']
           )}
         >
           <CallToAction text="Head to Main Stage" link="/event/stage" classes={[]} />
+        </div>
+        <div
+          className={cn(
+            styles['call-to-action-container'],
+            styleUtils.appear,
+            styleUtils['appear-fifth']
+          )}
+        >
+          <CallToAction text="Return to homepage" link="/" classes={[]} />
         </div>
       </div>
     </div>

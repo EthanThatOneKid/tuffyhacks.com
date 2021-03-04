@@ -12,7 +12,7 @@
 
 .hero-title {
   letter-spacing: -0.05em;
-  font-size: 5rem;
+  font-size: 3.25rem;
   line-height: 1.15;
   font-weight: 700;
   text-align: center;
@@ -22,6 +22,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  margin-bottom: 1em;
 }
 
 .countdown-container {
