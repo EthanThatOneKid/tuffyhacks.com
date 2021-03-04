@@ -31,7 +31,7 @@ export default function StagePage({ stage, allStages }: Props) {
   return (
     <Page meta={meta} fullViewport>
       <Layout>
-        <TwitchStageContainer stage={stage} allStages={allStages} />
+        <TwitchStageContainer allStages={allStages} stage={stage} />
       </Layout>
     </Page>
   );
