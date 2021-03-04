@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+.hero {
+  text-align: center;
+}
+
+.hero-title {
+  letter-spacing: -0.05em;
+  font-size: 5rem;
+  line-height: 1.15;
+  font-weight: 700;
+  text-align: center;
+}
+
+.call-to-action-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.countdown-container {
+  font-size: 3rem;
+  line-height: 0.1rem;
+  padding: 2rem 0 3rem 0;
+}
+
+@media (min-width: 768px) {
+  .call-to-action-container {
+    flex-direction: row;
+    height: inherit;
+  }
+}

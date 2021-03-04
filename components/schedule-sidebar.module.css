@@ -26,7 +26,7 @@
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
   --talk-card-width: 100%;
-  border-top: 5px dotted var(--tuffyhacks-light-green);
+  border-top: 1px solid var(--tuffyhacks-light-green);
 }
 
 .schedule::-webkit-scrollbar {
@@ -62,7 +62,7 @@
     max-width: min-content;
     max-height: calc(var(--100vh) - var(--header-height));
     --talk-card-width: unset;
-    border-left: 5px dotted var(--tuffyhacks-light-green);
+    border-left: 1px solid var(--tuffyhacks-light-green);
     border-top: none;
   }
 }

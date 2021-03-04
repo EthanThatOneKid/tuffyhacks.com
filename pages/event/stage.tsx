@@ -1,8 +1,6 @@
 import Page from '@components/page';
 import TwitchStageContainer from '@components/twitch-stage-container';
 import Layout from '@components/layout';
-
-import { Stage } from '@lib/types';
 import { META_DESCRIPTION } from '@lib/constants';
 
 export default function StagePage() {
