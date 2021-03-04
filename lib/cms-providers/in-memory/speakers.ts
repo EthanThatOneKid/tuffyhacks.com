@@ -2,7 +2,7 @@ import type { Speaker, Talk } from '@lib/types';
 
 export const speakers: Speaker[] = [
   {
-    name: 'Tuffy Camper',
+    name: 'TuffyHacks Team',
     bio: 'Hi, I am Tuffy Camper!',
     title: 'Tuffy Camper',
     slug: 'tuffy',
