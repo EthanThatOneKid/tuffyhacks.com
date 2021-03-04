@@ -1,16 +1,13 @@
 import cn from 'classnames';
-import { Stage } from '@lib/types';
+import { stages as allStages } from '@lib/cms-providers/in-memory/stages';
 import styles from './stage-container.module.css';
 import styleUtils from './utils.module.css';
 import ScheduleSidebar from './schedule-sidebar';
 import { TwitchEmbed } from 'react-twitch-embed'; // https://github.com/moonstar-x/react-twitch-embed#readme
 
-type Props = {
-  stage: Stage;
-  allStages: Stage[];
-};
+type Props = {};
 
-export default function TwitchStageContainer({ allStages }: Props) {
+export default function TwitchStageContainer({}: Props) {
   return (
     <div className={styles.container}>
       <div className={styles.streamContainer}>
