@@ -9,10 +9,10 @@ export const stages: Stage[] = [
     discord: '#',
     schedule: [
       {
-        title: 'Test Talk',
-        description: 'Test description',
-        start: '2021-03-01T19:24:01.438Z',
-        end: '2022-03-01T19:24:01.438Z',
+        title: 'Opening Ceremony',
+        description: 'Be sure not to miss this opening ceremony!',
+        start: '2021-03-27T18:00:00.000Z',
+        end: '2021-03-27T19:00:00.000Z',
         speaker: [speakers[0]]
       }
     ]
