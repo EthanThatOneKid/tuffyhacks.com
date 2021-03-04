@@ -74,7 +74,7 @@
 
   --gray: #252729;
   --secondary-color: var(--dark-brown-stroke);
-  --sidebar: #0e0e10;
+  --sidebar-color: #18181b;
   --header-height: 72px;
   --brand: var(--tuffyhacks-light-green);
 }

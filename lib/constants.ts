@@ -50,6 +50,10 @@ export const NAVIGATION = [
   {
     name: 'FAQ',
     route: '/#faq'
+  },
+  {
+    name: 'Event',
+    route: '/event'
   }
 ];
 
