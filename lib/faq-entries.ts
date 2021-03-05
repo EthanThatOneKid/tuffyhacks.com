@@ -12,7 +12,7 @@ export const faqEntries: FaqEntry[] = [
   {
     question: 'Who can participate?',
     answer:
-      "Any current college student or have graduated in the past year, you're more than welcome to attend! Not a student? No problem! You can attend as a mentor and help out our students! Mentor applications will be opening soon."
+      'Any current high school student, college student, or new graduate, is more than welcome to attend! Not a student? No problem! You can attend as a mentor and help out our students! Mentor applications will be opening soon.'
   },
   {
     question: 'What if I have no prior experience in programming, coding, or hackathons?',
