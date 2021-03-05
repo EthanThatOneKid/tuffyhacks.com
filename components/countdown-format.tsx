@@ -1,13 +1,16 @@
+const formatTimeWithUnits = (value: number, unit: string) =>
+  `${value} ${unit}${value === 1 ? '' : 's'}`;
+
 export default function CountdownFormat({ days, hours, minutes, seconds, completed }: any) {
   if (completed) {
     return <p>The event will begin shortly...</p>;
   } else {
     return (
       <>
-        <p>{days} days</p>
-        <p>{hours} hours</p>
-        <p>{minutes} minutes</p>
-        <p>{seconds} seconds</p>
+        <p>{formatTimeWithUnits(days, 'day')}</p>
+        <p>{formatTimeWithUnits(hours, 'hour')}</p>
+        <p>{formatTimeWithUnits(minutes, 'minute')}</p>
+        <p>{formatTimeWithUnits(seconds, 'second')}</p>
       </>
     );
   }
