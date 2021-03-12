@@ -3,24 +3,8 @@ import IllustrationContainer from './illustration-container';
 import Tree from './illustrations/tree';
 import Trailer from './illustrations/tuffy-trailer';
 import styles from './sponsors-section.module.css';
-import { LEAF_COLORS } from '@lib/constants';
-
-const sponsors: { label: string; url: string; picture: string }[] = [
-  { label: 'Codecademy', url: 'https://www.codecademy.com/', picture: '/sponsors/codecademy.png' },
-  { label: 'ECS-ICC', url: 'https://ecsicc.org/', picture: '/sponsors/ecs.png' },
-  { label: 'Echo AR', url: 'https://www.echoar.xyz/', picture: '/sponsors/echoar.png' },
-  {
-    label: 'Digital Ocean',
-    url: 'https://digitalocean.com/',
-    picture: '/sponsors/digitalocean.png'
-  },
-  { label: 'Repl dot IT', url: 'https://repl.it/', picture: '/sponsors/replit.png' },
-  { label: 'Linode', url: 'https://www.linode.com/', picture: '/sponsors/linode.png' }
-];
-
-const partners: { label: string; url: string; picture: string }[] = [
-  { label: 'ACM CSUF', url: 'https://acmcsuf.com/', picture: '/partners/acmcsuf.png' }
-];
+import CallToAction from './call-to-action';
+import { LEAF_COLORS, SPONSORSHIP } from '@lib/constants';
 
 export default function SponsorsSection() {
   return (
@@ -33,20 +17,14 @@ export default function SponsorsSection() {
       </IllustrationContainer>
       <div className={cn(styles['info-container'])}>
         <h2>Sponsors</h2>
-        <div className={cn(styles['sponsors-container'])}>
-          {sponsors.map(({ label, url, picture }) => (
-            <a href={url} key={label}>
-              <img src={picture} alt={label} />
-            </a>
-          ))}
+        <div>
+          <p>Coming soon...</p>
         </div>
-        <div className={cn(styles['partners-container'])}>
-          {partners.map(({ label, url, picture }) => (
-            <a href={url} key={label}>
-              <img src={picture} alt={label} />
-            </a>
-          ))}
-        </div>
+        <p>
+          Interested in sponsoring? Check out our 2021 sponsorship package. Click here for more
+          details and instructions on how to sponsor.
+        </p>
+        <CallToAction text="Become a Sponsor" link={SPONSORSHIP} />
       </div>
     </section>
   );
