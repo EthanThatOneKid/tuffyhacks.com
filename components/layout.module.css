@@ -48,7 +48,7 @@
   background: var(--tuffyhacks-brown);
   border-bottom: 1px solid var(--accents-7);
   height: var(--header-height);
-  z-index: 2;
+  box-shadow: 0px 6px 5px 2px var(--tuffyhacks-purple) 20%; /* For some reason, this box-shadow does not show up in the browser and I am not sure why. */
 }
 
 .header-logos {
@@ -77,6 +77,7 @@
 @media screen and (min-width: 1032px) {
   .tabs {
     display: initial;
+    margin-right: var(--space-4x);
   }
 
   .tabs > a:nth-child(2),
