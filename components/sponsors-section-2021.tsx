@@ -2,7 +2,7 @@ import cn from 'classnames';
 import IllustrationContainer from './illustration-container';
 import Tree from './illustrations/tree';
 import Trailer from './illustrations/tuffy-trailer';
-import styles from './2021-sponsors-section.module.css';
+import styles from './sponsors-section-2021.module.css';
 import { LEAF_COLORS } from '@lib/constants';
 
 const sponsors: { label: string; url: string; picture: string }[] = [
@@ -22,7 +22,7 @@ const partners: { label: string; url: string; picture: string }[] = [
   { label: 'ACM CSUF', url: 'https://acmcsuf.com/', picture: '/partners/acmcsuf.png' }
 ];
 
-export default function SponsorsSection() {
+export default function SponsorsSection2021() {
   return (
     <section id="sponsors" className={cn(styles.container)}>
       <IllustrationContainer>
