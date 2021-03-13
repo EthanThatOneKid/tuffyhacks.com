@@ -43,6 +43,8 @@
 }
 
 .logos-container a {
+  display: flex;
+  align-items: center;
   width: 100%;
   max-width: 200px;
   max-height: max(min-content, 200px);
