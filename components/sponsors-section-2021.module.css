@@ -65,3 +65,9 @@
     max-height: 200px;
   }
 }
+
+@media (min-width: 1100px) {
+  .info-container:last-of-type {
+    margin-bottom: 24em;
+  }
+}
