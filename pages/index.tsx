@@ -14,15 +14,13 @@
  * limitations under the License.
  */
 
-import { useRef, useEffect } from 'react';
 import { useRouter } from 'next/router';
 import { SkipNavContent } from '@reach/skip-nav';
 
 import Page from '@components/page';
 import ConfContent from '@components/index';
 import AboutSection from '@components/about-section';
-import SponsorsSection2021 from '@components/sponsors-section-2021';
-// import SponsorsSection from '@components/sponsors-section';
+import SponsorsSection from '@components/sponsors-section';
 import FaqSection from '@components/faq-section';
 import { META_DESCRIPTION } from '@lib/constants';
 
@@ -49,7 +47,7 @@ export default function Conf() {
         defaultPageState={query.ticketNumber ? 'ticket' : 'registration'}
       />
       <AboutSection />
-      <SponsorsSection2021 />
+      <SponsorsSection />
       <FaqSection />
     </Page>
   );
