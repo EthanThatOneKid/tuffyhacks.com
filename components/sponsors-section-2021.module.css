@@ -57,6 +57,9 @@
 }
 
 @media (min-width: 768px) {
+  .info-container:last-of-type {
+    margin-bottom: 12em;
+  }
   .logos-container a {
     max-width: 350px;
     max-height: 200px;
