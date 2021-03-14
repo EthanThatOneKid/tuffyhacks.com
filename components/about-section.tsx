@@ -23,10 +23,10 @@ export default function AboutSection() {
       <div className={cn(styles['info-container'])}>
         <h2>Empowering Students</h2>
         <p>
-          acmCSUF, Theta Tau, and other STEM clubs are uniting to host California State University
-          Fullerton's first 24-hour hackathon for beginners and first-time hackers. This year, our
-          hackathon will be held virtually on March 27th-28th meaning you can participate from the
-          comfort of your own home!
+          acmCSUF, Theta Tau (ΦΕ), and other STEM clubs are uniting to host California State
+          University Fullerton's first 24-hour hackathon for beginners and first-time hackers. This
+          year, our hackathon will be held virtually on March 27th-28th meaning you can participate
+          from the comfort of your own home!
         </p>
         <p>
           Come learn new topics with workshops ranging from <em>Intro to Design</em> to{' '}
