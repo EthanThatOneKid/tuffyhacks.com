@@ -1,4 +1,4 @@
-const formatTimeWithUnits = (value: number, unit: string) =>
+export const formatTimeWithUnits = (value: number, unit: string) =>
   `${value} ${unit}${value === 1 ? '' : 's'}`;
 
 export default function CountdownFormat({ days, hours, minutes, seconds, completed }: any) {

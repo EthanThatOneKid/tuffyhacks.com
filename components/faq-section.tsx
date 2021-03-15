@@ -1,7 +1,11 @@
 import cn from 'classnames';
 import Footer from '@components/footer';
 import faqEntries from '@lib/faq-entries';
+import styleUtils from "./utils.module.css"
 import styles from './faq-section.module.css';
+import { EVENT_DATE } from '@lib/constants';
+import Countdown from 'react-countdown';
+import {formatTimeWithUnits} from './countdown-format';
 
 export default function FaqSection() {
   return (
@@ -17,6 +21,16 @@ export default function FaqSection() {
               </div>
             );
           })}
+          <div className={cn(styles['faq-list-item'])}>
+                <h3>When does TuffyHacks begin?</h3>
+                <Countdown 
+                date={EVENT_DATE} 
+                renderer={
+                  ({ days, hours, minutes, seconds }: any) =>
+                  <p>TuffyHacks will begin in {formatTimeWithUnits(days, 'day')}, {formatTimeWithUnits(hours, 'hour')}, {formatTimeWithUnits(minutes, 'minute')}, and {formatTimeWithUnits(seconds, 'second')}.</p>
+                  }
+                  />
+        </div>
         </div>
         <a href="/#top">
           <svg
