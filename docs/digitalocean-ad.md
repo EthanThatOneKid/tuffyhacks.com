@@ -40,4 +40,4 @@ You can actually have a $100, 60-day free trial with Digital Ocean by scanning t
 
 Or, you could simply visit Try dot Digital Ocean dot Com Slash Developer Cloud.
 
-You can also check out our camper guide on TuffyHacks dot Com Slash Guide which has all of this information for your convenience.
+You can also check out our camper guide on TuffyHacks dot Com Slash Guide which has all of the information I covered for your convenience.
