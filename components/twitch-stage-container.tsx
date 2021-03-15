@@ -21,10 +21,12 @@ export default function TwitchStageContainer({}: Props) {
           {isStarting ? (
             <TwitchEmbed
               channel={TWITCH_CHANNEL}
+              auto
               allowFullscreen={true}
               theme="dark"
               width="100%"
               height="100%"
+              autoplay={true}
             />
           ) : (
             <div className={cn(styleUtils.appear, styleUtils['appear-second'])}>
