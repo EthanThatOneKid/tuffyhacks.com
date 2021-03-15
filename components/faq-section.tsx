@@ -22,14 +22,18 @@ export default function FaqSection() {
             );
           })}
           <div className={cn(styles['faq-list-item'])}>
-                <h3>When does TuffyHacks begin?</h3>
-                <Countdown 
-                date={EVENT_DATE} 
-                renderer={
-                  ({ days, hours, minutes, seconds }: any) =>
-                  <p>TuffyHacks will begin in {formatTimeWithUnits(days, 'day')}, {formatTimeWithUnits(hours, 'hour')}, {formatTimeWithUnits(minutes, 'minute')}, and {formatTimeWithUnits(seconds, 'second')}.</p>
-                  }
-                  />
+            <h3>When does TuffyHacks begin?</h3>
+            <Countdown 
+              date={EVENT_DATE} 
+              renderer={
+                ({ days, hours, minutes, seconds }: any) =>
+                  <p>
+                    TuffyHacks will begin on Saturday March 27th, 2021 at 11:00 AM PST which is in {formatTimeWithUnits(days, 'day')},{" "}
+                    {formatTimeWithUnits(hours, 'hour')},{" "}
+                    {formatTimeWithUnits(minutes, 'minute')},{" "}
+                    and {formatTimeWithUnits(seconds, 'second')}.
+                  </p>
+              }/>
         </div>
         </div>
         <a href="/#top">
