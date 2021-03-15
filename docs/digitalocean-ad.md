@@ -1,6 +1,4 @@
-# Digital Ocean Ad
-
-`#ad`
+# Digital Ocean `#Ad`
 
 ## Slide 1
 
@@ -25,7 +23,7 @@ You can manage your infrastructures seamlessly with Digital Ocean's collection o
 
 Digital Ocean houses 12 data centers across 8 global markets, so you can stay confident about the safety of your data.
 
-# Slide 4
+## Slide 4
 
 Customers keep coming back to Digital Ocean because of...
 
@@ -34,7 +32,7 @@ Customers keep coming back to Digital Ocean because of...
 - Awesome customer service.
 - And their contributions to the open source community.
 
-# Slide 5
+## Slide 5
 
 You can actually have a $100, 60-day free trial with Digital Ocean by scanning the QR code on the screen.
 
