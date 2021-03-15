@@ -4,7 +4,9 @@ const links = {
   "/activities": "https://www.notion.so/Activities-4eefbfa9c8d442e489ad5ab6830abcdd",
   "/trails": "https://www.notion.so/Trails-5aead207c2f84387969b8b2ff5049d90",
   "/submissions": "https://www.notion.so/Project-Submission-Judging-6dadfbbc335c468ea08bbf4f8200ad8f",
-  "/mentors": "https://www.notion.so/Mentors-72e2a7e1685e4e83bac43f6f579f5cce"
+  "/mentors": "https://www.notion.so/Mentors-72e2a7e1685e4e83bac43f6f579f5cce",
+  "/classroom-a": "https://fullerton.zoom.us/j/85266867630",
+  "/classroom-b": "https://fullerton.zoom.us/j/84576634429"
 };
 
 module.exports = {
