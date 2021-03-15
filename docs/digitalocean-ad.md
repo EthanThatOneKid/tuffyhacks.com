@@ -6,7 +6,7 @@
 
 Hello, everyone!
 
-My name is Ethan Davidson, TuffyHacks' _Head of Technology_, and I would like to share a quick word from one of our sponsors, **Digital Ocean**.
+My name is Ethan Davidson, TuffyHacks' _Head of Tech_, and I would like to share a quick word from one of our sponsors, **Digital Ocean**.
 
 Digital Ocean offers a scalable compute platform with add-on storage, security, and monitoring capabilities.
 
