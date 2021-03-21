@@ -13,7 +13,6 @@ type Props = {};
 
 export default function TwitchStageContainer({}: Props) {
   const [isStarting, setIsStarting] = useState(false);
-  const timeout = Date.now() + 5000 || EVENT_DATE;
   return (
     <div className={styles.container}>
       <div className={styles.streamContainer}>
@@ -31,7 +30,7 @@ export default function TwitchStageContainer({}: Props) {
           ) : (
             <div className={cn(styleUtils.appear, styleUtils['appear-second'])}>
               <Countdown
-                date={timeout}
+                date={EVENT_DATE}
                 renderer={CountdownFormat}
                 onComplete={() => setIsStarting(true)}
               />
