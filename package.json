@@ -32,6 +32,7 @@
     "react-dom": "17.0.1",
     "react-twitch-embed": "^2.1.0",
     "smoothscroll-polyfill": "0.4.4",
+    "ssri": "^8.0.1",
     "swr": "0.3.9",
     "validator": "13.5.2",
     "vanilla-tilt": "1.7.0"
