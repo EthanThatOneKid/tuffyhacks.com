@@ -20,8 +20,11 @@ import '@styles/nprogress.css';
 import type { AppProps } from 'next/app';
 import NProgress from '@components/nprogress';
 import ResizeHandler from '@components/resize-handler';
+import swEffect from '@lib/sw-effect';
+import { useEffect } from 'react';
 
 export default function App({ Component, pageProps }: AppProps) {
+  useEffect(swEffect, []);
   return (
     <SSRProvider>
       <OverlayProvider>
