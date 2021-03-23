@@ -23,7 +23,7 @@ export const stages: Stage[] = [
         title: 'Hacking Begins',
         description: '',
         start: '2021-03-27T19:00:00.000Z',
-        end: '2021-03-27T19:00:00.000Z',
+        end: '2021-03-27T20:00:00.000Z',
         speaker: [speakers[0]]
       },
       {
