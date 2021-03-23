@@ -12,13 +12,6 @@ export const stages: Stage[] = [
     stream: '#',
     discord: '#',
     schedule: [
-      // {
-      //   title: 'TEST Opening Ceremony',
-      //   description: 'Be sure not to miss this opening ceremony!',
-      //   start: '2021-03-23T02:09:52.876Z',
-      //   end: '2021-03-23T02:12:00.000Z',
-      //   speaker: [speakers[0]]
-      // },
       {
         title: 'Opening Ceremony',
         description: 'Be sure not to miss this opening ceremony!',
