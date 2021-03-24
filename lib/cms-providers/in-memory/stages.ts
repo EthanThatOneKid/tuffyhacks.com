@@ -137,7 +137,7 @@ export const stages: Stage[] = [
         speaker: [speakers[0]]
       },
       {
-        title: 'Movie Night with a Surprise Movie',
+        title: 'Movie Night in the Lodge',
         description: '',
         start: '2021-03-28T04:00:00.000Z',
         end: '2021-03-28T06:00:00.000Z',
