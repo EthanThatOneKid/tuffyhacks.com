@@ -9,7 +9,7 @@ const links = {
   '/mentors': 'https://www.notion.so/Mentors-72e2a7e1685e4e83bac43f6f579f5cce',
   '/classroom-a': 'https://fullerton.zoom.us/j/85266867630',
   '/classroom-b': 'https://fullerton.zoom.us/j/84576634429',
-  '/gather-town': 'https://gather.town/app/8iXIeEFqq0LaJRkq/tuffyhacks-2021'
+  '/lodge': 'https://gather.town/app/8iXIeEFqq0LaJRkq/tuffyhacks-2021'
 };
 
 module.exports = {
