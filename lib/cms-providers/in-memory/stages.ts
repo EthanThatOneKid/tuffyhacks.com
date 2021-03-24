@@ -172,7 +172,7 @@ export const stages: Stage[] = [
         speaker: [speakers[0]]
       },
       {
-        title: 'Late-Night Games: Among Us',
+        title: 'Late-Night Games: Uno',
         description: '',
         start: '2021-03-28T08:00:00.000Z',
         end: '2021-03-28T09:00:00.000Z',
