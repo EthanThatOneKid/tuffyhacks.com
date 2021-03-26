@@ -21,6 +21,6 @@ Built with 💖 by the [TuffyHacks Team][the_team]
 
 [contributing]: docs/CONTRIBUTING.md
 [deployment_console]: https://vercel.com/ethanthatonekid/tuffyhacks-site
-[the_team]: https://acmcsuf.com/
+[the_team]: https://tuffyhacks.com/meet-the-team/
 [demo_site]: https://tuffyhacks.com/
 [designs]: https://www.figma.com/file/X7GKSRwLKZbslV1zimyixz/TuffyHacks-Web-Design
