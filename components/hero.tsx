@@ -89,7 +89,12 @@ export default function Hero() {
           styleUtils['appear-third']
         )}
       >
-        <CallToAction text="Apply" link={REGISTRATION} />
+        <CallToAction
+          text="Apply"
+          link={REGISTRATION}
+          disabled={true}
+          classes={[styleUtils.disabled]}
+        />
         <CallToAction text="Learn More" link="/#about" />
       </div>
     </section>
