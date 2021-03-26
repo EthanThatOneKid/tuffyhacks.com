@@ -30,7 +30,7 @@ export default function TwitchStageContainer({}: Props) {
           ) : (
             <div className={cn(styleUtils.appear, styleUtils['appear-second'])}>
               <Countdown
-                date={Date.now() + 5e3 || EVENT_DATE}
+                date={EVENT_DATE}
                 renderer={CountdownFormat}
                 onComplete={() => setIsStarting(true)}
               />
