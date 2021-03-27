@@ -3,7 +3,7 @@ export const formatTimeWithUnits = (value: number, unit: string) =>
 
 export default function CountdownFormat({ days, hours, minutes, seconds, completed }: any) {
   if (completed) {
-    return <p>The event will begin shortly...</p>;
+    return <p>The event is happening!</p>;
   } else {
     return (
       <>
