@@ -12,7 +12,7 @@ import styleUtils from './utils.module.css';
 type Props = {};
 
 export default function TwitchStageContainer({}: Props) {
-  const [isStarting, setIsStarting] = useState(false);
+  const [isStarting, setIsStarting] = useState(true);
   return (
     <div className={styles.container}>
       <div className={styles.streamContainer}>
