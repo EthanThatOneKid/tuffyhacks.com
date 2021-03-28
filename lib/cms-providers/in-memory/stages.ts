@@ -203,7 +203,7 @@ export const stages: Stage[] = [
         title: 'Closing Ceremony',
         description: 'Learn React with Codecademy Engineers!',
         start: '2021-03-28T22:30:00.000Z',
-        end: '2021-03-29T23:30:00.000Z',
+        end: '2021-03-29T00:00:00.000Z',
         speaker: [speakers[0]]
       }
     ]
