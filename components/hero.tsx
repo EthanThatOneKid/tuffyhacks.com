@@ -76,11 +76,12 @@ export default function Hero() {
         {SITE_DESCRIPTION}
       </h2>
       <div className={cn(styleUtils.appear, styleUtils['appear-third'], styles.info)}>
-        <p>{DATE}</p>
+        <p>Join the TuffyHacks 2022 organizer team!</p>
+        {/* <p>{DATE}</p>
         <div className={styles['description-separator']}>•</div>
         <p>
           <strong>Online</strong>
-        </p>
+        </p> */}
       </div>
       <div
         className={cn(
@@ -95,7 +96,7 @@ export default function Hero() {
           // disabled={true}
           // classes={[styleUtils.disabled]}
         />
-        <CallToAction text="Learn More" link="/#about" />
+        <CallToAction text="Sponsor 2022" link="mailto:info@tuffyhacks.com" />
       </div>
     </section>
   );
