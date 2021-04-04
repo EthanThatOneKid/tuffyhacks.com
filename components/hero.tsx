@@ -90,10 +90,10 @@ export default function Hero() {
         )}
       >
         <CallToAction
-          text="Apply"
-          link={REGISTRATION}
-          disabled={true}
-          classes={[styleUtils.disabled]}
+          text="Organizer Application"
+          link="#google-form-for-organizers"
+          // disabled={true}
+          // classes={[styleUtils.disabled]}
         />
         <CallToAction text="Learn More" link="/#about" />
       </div>

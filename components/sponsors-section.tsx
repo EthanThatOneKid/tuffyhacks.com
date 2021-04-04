@@ -13,6 +13,8 @@ const CompanyLogo = ({ label, url, picture }: ICompanyLogo) => (
   </a>
 );
 
+const isSponsorsSectionVisible = false;
+
 export default function SponsorsSection() {
   return (
     <section id="sponsors" className={cn(styles.container)}>
@@ -24,7 +26,7 @@ export default function SponsorsSection() {
       </IllustrationContainer>
       <div className={cn(styles['info-container'])}>
         <h2>Sponsors</h2>
-        {sponsors.length > 0 ? (
+        {sponsors.length > 0 && isSponsorsSectionVisible ? (
           <div className={cn(styles['logos-container'])}>{sponsors.map(CompanyLogo)}</div>
         ) : (
           <div>
@@ -39,10 +41,10 @@ export default function SponsorsSection() {
           </div>
         )}
       </div>
-      <div className={cn(styles['info-container'])}>
+      {/* <div className={cn(styles['info-container'])}>
         <h2>Partners</h2>
         <div className={cn(styles['logos-container'])}>{partners.map(CompanyLogo)}</div>
-      </div>
+      </div> */}
     </section>
   );
 }

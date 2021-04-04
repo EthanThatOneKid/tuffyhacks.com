@@ -52,11 +52,11 @@ export const NAVIGATION = [
   {
     name: 'FAQ',
     route: '/#faq'
-  },
-  {
-    name: 'Event',
-    route: '/event'
   }
+  // {
+  //   name: 'Event',
+  //   route: '/event'
+  // }
 ];
 
 export const LEAF_COLORS = ['#94a71c', '#b1c046', '#767d3a', '#7B8A1C'];
