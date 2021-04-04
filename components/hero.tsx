@@ -91,7 +91,7 @@ export default function Hero() {
       >
         <CallToAction
           text="Organizer Application"
-          link="#google-form-for-organizers"
+          link="https://forms.gle/CzL3yV1NEmEVcx1fA"
           // disabled={true}
           // classes={[styleUtils.disabled]}
         />
