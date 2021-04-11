@@ -34,17 +34,21 @@ export default function SponsorsSection() {
               <p>Coming soon...</p>
             </div>
             <p>
-              Interested in sponsoring? Check out our 2021 sponsorship package. Click here for more
+              Interested in sponsoring? Check out our 2022 sponsorship package. Click here for more
               details and instructions on how to sponsor.
             </p>
             <CallToAction text="Become a Sponsor" link={SPONSORSHIP} />
           </div>
         )}
       </div>
-      {/* <div className={cn(styles['info-container'])}>
-        <h2>Partners</h2>
-        <div className={cn(styles['logos-container'])}>{partners.map(CompanyLogo)}</div>
-      </div> */}
+      {isSponsorsSectionVisible ? (
+        <div className={cn(styles['info-container'])}>
+          <h2>Partners</h2>
+          <div className={cn(styles['logos-container'])}>{partners.map(CompanyLogo)}</div>
+        </div>
+      ) : (
+        <></>
+      )}
     </section>
   );
 }

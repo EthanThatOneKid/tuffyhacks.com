@@ -15,7 +15,6 @@
  */
 
 import cn from 'classnames';
-import { LEAF_COLORS } from '@lib/constants';
 import CallToAction from './call-to-action';
 import IllustrationContainer from './illustration-container';
 import TuffyCamper from './illustrations/tuffy-camper';
@@ -23,7 +22,7 @@ import Tree from './illustrations/tree';
 import TuffyTent from './illustrations/tuffy-tent';
 import styleUtils from './utils.module.css';
 import styles from './hero.module.css';
-import { BRAND_NAME, DATE, SITE_DESCRIPTION, REGISTRATION } from '@lib/constants';
+import { BRAND_NAME, LEAF_COLORS, SITE_DESCRIPTION, SPONSORSHIP } from '@lib/constants';
 
 export default function Hero() {
   return (
@@ -96,7 +95,7 @@ export default function Hero() {
           // disabled={true}
           // classes={[styleUtils.disabled]}
         />
-        <CallToAction text="Sponsor 2022" link="mailto:info@tuffyhacks.com" />
+        <CallToAction text="Sponsor 2022" link={SPONSORSHIP} />
       </div>
     </section>
   );
