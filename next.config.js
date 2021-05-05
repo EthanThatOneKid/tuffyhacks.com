@@ -10,7 +10,8 @@ const links = {
   '/classroom-a': 'https://fullerton.zoom.us/j/85266867630',
   '/classroom-b': 'https://fullerton.zoom.us/j/84576634429',
   '/lodge': 'https://gather.town/app/8iXIeEFqq0LaJRkq/tuffyhacks-2021',
-  '/faq': 'https://www.notion.so/FAQ-Contact-2664d5ca82b5473aa0eaf9dc3e1dbda4'
+  '/faq': 'https://www.notion.so/FAQ-Contact-2664d5ca82b5473aa0eaf9dc3e1dbda4',
+  '/apply': 'https://forms.gle/CzL3yV1NEmEVcx1fA'
 };
 
 module.exports = {
