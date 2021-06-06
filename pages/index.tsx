@@ -22,6 +22,7 @@ import ConfContent from '@components/index';
 import AboutSection from '@components/about-section';
 import SponsorsSection from '@components/sponsors-section';
 import FaqSection from '@components/faq-section';
+import Footer from '@components/footer';
 import { META_DESCRIPTION } from '@lib/constants';
 
 export default function Conf() {
@@ -46,9 +47,10 @@ export default function Conf() {
         defaultUserData={defaultUserData}
         defaultPageState={query.ticketNumber ? 'ticket' : 'registration'}
       />
-     {/* <AboutSection />
+      {/* <AboutSection />
       <SponsorsSection />
       <FaqSection />  */}
+      <Footer />
     </Page>
   );
 }
