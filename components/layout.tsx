@@ -46,7 +46,7 @@ export default function Layout({ children, className, hideNav, layoutStyles }: P
                 <a className={styles.logo}>TuffyHacks</a>
               </Link>
             </div>
-            <div className={styles.tabs}>
+            {/* <div className={styles.tabs}>
               {NAVIGATION.map(({ name, route }) => (
                 <Link key={name} href={route}>
                   <a
@@ -58,7 +58,7 @@ export default function Layout({ children, className, hideNav, layoutStyles }: P
                   </a>
                 </Link>
               ))}
-            </div>
+            </div> */}
             {/* <div className={cn(styles['header-right'])}>
               <HostedByVercel />
               Created by the TuffyHacks Team

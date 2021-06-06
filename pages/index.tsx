@@ -28,7 +28,7 @@ export default function Conf() {
   const router = useRouter();
   const { query } = router;
   const meta = {
-    title: 'TuffyHacks 2021',
+    title: 'TuffyHacks',
     description: META_DESCRIPTION
   };
   const ticketNumber = query.ticketNumber?.toString();
@@ -46,9 +46,9 @@ export default function Conf() {
         defaultUserData={defaultUserData}
         defaultPageState={query.ticketNumber ? 'ticket' : 'registration'}
       />
-      <AboutSection />
+     {/* <AboutSection />
       <SponsorsSection />
-      <FaqSection />
+      <FaqSection />  */}
     </Page>
   );
 }
