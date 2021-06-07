@@ -9,11 +9,11 @@ See [`CONTRIBUTING.md`][contributing] to see how you can help contribute to [`tu
 ## Contributors 👷‍♀️
 
 | Credit          | Contributions |
-| --------------- | ------------- |
-| Jacob Nguyen    | Design        |
-| Brian Chung     | Development   |
-| Ethan Davidson  | Development   |
-| Samuel Sandoval | Development   |
+| ---------------------------------------------------------- | ------------- |
+| [**@barrotbake**](https://github.com/barrotbake)           | Design        |
+| [**@BrChung**](https://github.com/BrChung)                 | Development   |
+| [**@EthanThatOneKid**](https://github.com/EthanThatOneKid) | Development   |
+| [**@samuelsandoval1**](https://github.com/samuelsandoval1) | Development   |
 
 ---
 
