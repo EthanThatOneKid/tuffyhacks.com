@@ -39,6 +39,7 @@ export const EVENT_DATE = 'Sat Mar 27 2021 11:00:00 GMT-0700 (Pacific Daylight T
 export const REPO = 'https://github.com/EthanThatOneKid/tuffyhacks.com';
 export const REGISTRATION = 'https://tinyurl.com/tuffyhacks2021-app';
 export const SPONSORSHIP = 'https://tinyurl.com/tuffyhacks-sponsorship';
+export const EMAIL = 'mailto: info@tuffyhacks.com';
 export const SAMPLE_TICKET_NUMBER = 1234;
 export const NAVIGATION = [
   {

@@ -7,7 +7,7 @@ import { META_DESCRIPTION } from '@lib/constants';
 
 export default function MeetTheTeam() {
   const meta = {
-    title: 'TuffyHacks 2021 | Team',
+    title: 'TuffyHacks | Team',
     description: META_DESCRIPTION
   };
 
