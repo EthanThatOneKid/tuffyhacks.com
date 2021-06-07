@@ -75,7 +75,7 @@ export default function Hero() {
         {SITE_DESCRIPTION}
       </h2>
       <div className={cn(styleUtils.appear, styleUtils['appear-third'], styles.info)}>
-        <p>CSU Fullerton's premire hackathon!</p>
+        <p>CSU Fullerton's premiere hackathon!</p>
         {/* <p>{DATE}</p>
         <div className={styles['description-separator']}>•</div>
         <p>
