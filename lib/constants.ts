@@ -34,12 +34,13 @@ export const LEGAL_URL = process.env.NEXT_PUBLIC_PRIVACY_POLICY_URL;
 export const COPYRIGHT_HOLDER = process.env.NEXT_PUBLIC_COPYRIGHT_HOLDER;
 
 export const CODE_OF_CONDUCT = undefined;
-export const TWITCH_CHANNEL = 'tuffyhacks';
 export const EVENT_DATE = 'Sat Mar 27 2021 11:00:00 GMT-0700 (Pacific Daylight Time)';
+export const EMAIL = 'mailto: info@tuffyhacks.com';
 export const REPO = 'https://github.com/EthanThatOneKid/tuffyhacks.com';
 export const REGISTRATION = 'https://tinyurl.com/tuffyhacks2021-app';
 export const SPONSORSHIP = 'https://tinyurl.com/tuffyhacks-sponsorship';
 export const SAMPLE_TICKET_NUMBER = 1234;
+export const TWITCH_CHANNEL = 'tuffyhacks';
 export const NAVIGATION = [
   {
     name: 'About',

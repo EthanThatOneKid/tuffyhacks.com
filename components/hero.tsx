@@ -22,7 +22,7 @@ import Tree from './illustrations/tree';
 import TuffyTent from './illustrations/tuffy-tent';
 import styleUtils from './utils.module.css';
 import styles from './hero.module.css';
-import { BRAND_NAME, LEAF_COLORS, SITE_DESCRIPTION, SPONSORSHIP } from '@lib/constants';
+import { BRAND_NAME, LEAF_COLORS, SITE_DESCRIPTION, EMAIL } from '@lib/constants';
 
 export default function Hero() {
   return (
@@ -75,7 +75,7 @@ export default function Hero() {
         {SITE_DESCRIPTION}
       </h2>
       <div className={cn(styleUtils.appear, styleUtils['appear-third'], styles.info)}>
-        <p>Join the TuffyHacks 2022 organizer team!</p>
+        <p>CSU Fullerton's premiere hackathon!</p>
         {/* <p>{DATE}</p>
         <div className={styles['description-separator']}>•</div>
         <p>
@@ -90,12 +90,12 @@ export default function Hero() {
         )}
       >
         <CallToAction
-          text="Organizer Application"
-          link="https://forms.gle/CzL3yV1NEmEVcx1fA"
-          // disabled={true}
-          // classes={[styleUtils.disabled]}
+          text="Stay up to Date"
+          link="https://instagram.com/tuffyhacks"
+        // disabled={true}
+        // classes={[styleUtils.disabled]}
         />
-        <CallToAction text="Sponsor 2022" link={SPONSORSHIP} />
+        <CallToAction text="Sponsor Us" link={EMAIL} />
       </div>
     </section>
   );
