@@ -39,6 +39,7 @@ export const EMAIL = 'mailto: info@tuffyhacks.com';
 export const REPO = 'https://github.com/EthanThatOneKid/tuffyhacks.com';
 export const REGISTRATION = 'https://tinyurl.com/tuffyhacks2021-app';
 export const SPONSORSHIP = 'https://tinyurl.com/tuffyhacks-sponsorship';
+export const DONATION = 'https://bank.hackclub.com/donations/start/tuffyhacks';
 export const SAMPLE_TICKET_NUMBER = 1234;
 export const TWITCH_CHANNEL = 'tuffyhacks';
 export const NAVIGATION = [

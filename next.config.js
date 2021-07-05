@@ -11,7 +11,8 @@ const links = {
   '/classroom-b': 'https://fullerton.zoom.us/j/84576634429',
   '/lodge': 'https://gather.town/app/8iXIeEFqq0LaJRkq/tuffyhacks-2021',
   '/faq': 'https://www.notion.so/FAQ-Contact-2664d5ca82b5473aa0eaf9dc3e1dbda4',
-  '/apply': 'https://forms.gle/CzL3yV1NEmEVcx1fA'
+  '/apply': 'https://forms.gle/CzL3yV1NEmEVcx1fA',
+  '/donate': 'https://bank.hackclub.com/donations/start/tuffyhacks',
 };
 
 module.exports = {

@@ -22,7 +22,7 @@ import Tree from './illustrations/tree';
 import TuffyTent from './illustrations/tuffy-tent';
 import styleUtils from './utils.module.css';
 import styles from './hero.module.css';
-import { BRAND_NAME, LEAF_COLORS, SITE_DESCRIPTION, EMAIL } from '@lib/constants';
+import { BRAND_NAME, LEAF_COLORS, SITE_DESCRIPTION, DONATION } from '@lib/constants';
 
 export default function Hero() {
   return (
@@ -95,7 +95,7 @@ export default function Hero() {
         // disabled={true}
         // classes={[styleUtils.disabled]}
         />
-        <CallToAction text="Sponsor Us" link={EMAIL} />
+        <CallToAction text="Sponsor Us" link={DONATION} />
       </div>
     </section>
   );
