@@ -6,7 +6,7 @@
   "homepage": "https://tuffyhacks.com",
   "license": "Apache-2.0",
   "engines": {
-    "node": "12.x"
+    "node": ">=12.x"
   },
   "scripts": {
     "dev": "next",
@@ -23,14 +23,16 @@
     "intersection-observer": "0.12.0",
     "ioredis": "4.19.4",
     "ms": "2.1.3",
-    "next": "10.0.3",
+    "next": "^10.2.3",
     "nprogress": "0.2.0",
+    "path-parse": "^1.0.7",
     "puppeteer-core": "5.5.0",
     "react": "17.0.1",
     "react-aria": "3.2.0",
     "react-countdown": "^2.3.1",
     "react-dom": "17.0.1",
     "react-twitch-embed": "^2.1.0",
+    "set-value": "^4.1.0",
     "smoothscroll-polyfill": "0.4.4",
     "ssri": "^8.0.1",
     "swr": "0.3.9",
